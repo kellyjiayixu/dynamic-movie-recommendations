@@ -1,1 +1,7 @@
-from .replayers import ABTestReplayer, EpsilonGreedyReplayer, ThompsonSamplingReplayer
+from .replayers import (
+    ABTestReplayer,
+    EpsilonGreedyReplayer,
+    ThompsonSamplingReplayer,
+    SoftmaxReplayer,
+    UCBReplayer,
+)
